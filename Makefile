@@ -1,6 +1,6 @@
-# TARGET = xdp_lb
+TARGET = xdp_lb
 # TARGET = packetdrop
-TARGET = xdp_liz
+#TARGET = xdp_liz
 
 # For xdp_liz, make and also make user. The others don't have userspace programs
 
