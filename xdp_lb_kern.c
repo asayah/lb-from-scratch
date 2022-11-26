@@ -1,6 +1,6 @@
 #include "xdp_lb_kern.h"
 
-#define IP_ADDRESS(x) (unsigned int)(172 + (17 << 8) + (0 << 16) + (x << 24))
+#define IP_ADDRESS(x) (unsigned int)(172 + (20 << 8) + (0 << 16) + (x << 24))
 
 #define BACKEND_A 2
 #define BACKEND_B 3
